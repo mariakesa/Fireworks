@@ -87,7 +87,7 @@ class Canvas(app.Canvas):
         self._program.bind(gloo.VertexBuffer(data))
         self._program['s_texture'] = gloo.Texture2D(im1)
         self.transp=np.load('/media/maria/DATA1/Documents/zebra_fish_gui/my_spks_.npy')
-        print('transp',self.transp.shape)
+        print('transp',self.transp)
 
         self.pos=((np.load('/media/maria/DATA1/Documents/zebra_fish_gui/pos.npy')[:])*2)-1
         self.i=0
@@ -138,6 +138,7 @@ class Canvas(app.Canvas):
 
         # New color, scale alpha with N
         a_transp=self.transp[i,:]
+        print(a_transp)
 
         color=np.ones((10000,4))
         print('ens',self.ensemble.shape)
@@ -154,7 +155,7 @@ class Canvas(app.Canvas):
         #self._program.bind(self.data_vbo)
         data['a_color'] = color
 
-        print(color)
+        #print(color)
 
         data['a_lifetime'] = np.random.normal(2.0, 0.5, (N,))
 
