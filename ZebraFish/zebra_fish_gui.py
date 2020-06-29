@@ -50,7 +50,7 @@ void main () {
     v_lifetime = 1.0 - (u_time / a_lifetime);
     v_lifetime = clamp(v_lifetime, 0.0, 1.0);
 
-    gl_PointSize = (v_lifetime * v_lifetime) * 20.0;
+    gl_PointSize = (v_lifetime * v_lifetime) * 10.0;
 
 }
 """
