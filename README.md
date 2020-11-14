@@ -12,3 +12,5 @@ An example file from mouse V1 viewing sparse noise stimuli can be found here:
 
 https://figshare.com/articles/dataset/Recording_of_19_000_neurons_across_mouse_visual_cortex_during_sparse_noise_stimuli/9505250
 
+This project got into top 20 in the AlgoExpert software engineering competition and a video about using the program and the algorithm can be found here: [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/j_tgqfGCw_U/0.jpg)](https://www.youtube.com/watch?v=v)
+
