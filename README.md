@@ -4,7 +4,7 @@ This is a visualization plugin for visualizing clusters of neurons learned using
 
 Usage:
 
-This software requires pip installed EnsemblePursuit, numpy, sklearn, vispy, pyqtgraph. Clone this repository. In the command line cd to the cloned repository folder :
+This software requires pip installed EnsemblePursuit, numpy, sklearn, vispy, pyqtgraph. Clone this repository. In the command line cd to the cloned repository folder and run:
 
 python run_fireworks.py --stat <path to stat file> --spks <path to spks file> --n_ens <number of clusters> --lam <regularization parameter, try 0.01>
 '
