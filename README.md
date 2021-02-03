@@ -1,5 +1,7 @@
 # Fireworks
 
+The project is under construction! There's some bugs that I am working on!
+
 This is a visualization plugin for visualizing clusters of neurons learned using the EnsemblePursuit algorithm (https://github.com/MouseLand/EnsemblePursuit) from activity traces that have been extracted from calcium imaging recordings using spks.npy and stat.npy from the suite2p library https://github.com/MouseLand/suite2p
 
 Usage:
